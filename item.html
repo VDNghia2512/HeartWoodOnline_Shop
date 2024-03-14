@@ -139,10 +139,20 @@
       user-select: none;
       -moz-user-select: none;
     }
+    a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
   </style>
 </head>
 
 <body>
+  <a href="https://google.com" class="button">Go to Google</a>
+
   <input id="itemSearch" type="text" placeholder="Search..">
   <table border="1" id="itemTable" class="tablesorter tablesorter-default tablesorter75dce31127c36" role="grid">
 
